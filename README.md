@@ -1,3 +1,4 @@
+
 # 📊 Retail Sales and Business Performance Analysis
 
 ## 🧾 Project Overview
@@ -19,7 +20,10 @@ The goal is to convert raw sales data into actionable business insights for bett
 - NumPy
 - Matplotlib
 - Seaborn
-- SQL (conceptual queries)
+- SQL
+- Microsoft Excel
+- Power BI
+- Jupyter Notebook
 
 ---
 
@@ -45,6 +49,13 @@ The goal is to convert raw sales data into actionable business insights for bett
 - Business performance evaluation
 
 ---
+### 4️⃣ GroupBy, Pivot Table & Merge Operations
+- Region-wise sales aggregation using GroupBy
+- Category-wise profit analysis
+- Pivot Table analysis for regional profitability
+- Merge operation using Region Manager dataset
+
+---
 
 ### 4️⃣ Data Visualization
 - Histogram (Sales distribution)
@@ -59,6 +70,12 @@ The goal is to convert raw sales data into actionable business insights for bett
 ### 5️⃣ Feature Engineering
 - Created Profit Margin feature:
   - ProfitMargin = Profit / Sales * 100
+
+---
+### 6️⃣ Time Series Analysis
+- Created OrderDate column
+- Analyzed monthly sales trends
+- Visualized sales patterns using line charts
 
 ---
 
@@ -76,20 +93,47 @@ The goal is to convert raw sales data into actionable business insights for bett
 
 ---
 
-### 8️⃣ SQL Analysis (Conceptual)
-- SQL queries used for:
-  - Region-wise sales
-  - Category-wise profit
-  - State-wise performance
+### 9️⃣ SQL & Advanced SQL Analysis
+- Region-wise sales analysis
+- Category-wise profit analysis
+- Top-performing states analysis
+- Aggregation functions
+- GROUP BY operations
+- ORDER BY sorting
+- Business-oriented SQL queries
+
+---
+### 🔟 Excel Data Review
+- Dataset inspection using Microsoft Excel
+- Data validation and consistency checks
+- Preliminary analysis before Python processing
+
+---
+
+### 1️⃣1️⃣ Power BI Dashboard
+An interactive Power BI dashboard was developed containing:
+
+- Sales by Region
+- Sales by Segment
+- Profit by Category
+- Top States by Sales
+- Total Sales KPI
+- Total Profit KPI
+
+The dashboard provides a visual summary of business performance and profitability.
 
 ---
 
 ## 📌 Key Insights
+
 - West region generated the highest sales
 - Technology category produced the highest profit
-- Discounts negatively impact profit
-- Some sub-categories resulted in losses
 - Consumer segment contributed maximum sales
+- California recorded the highest sales among all states
+- Discounts negatively impacted profitability
+- Profit margins varied significantly across transactions
+- Monthly sales trends revealed fluctuations in business performance
+- Regional profitability differed across product categories
 
 ---
 
@@ -114,8 +158,27 @@ This project demonstrates how raw retail data can be transformed into meaningful
 ---
 
 ## ⭐ Outcome
-✔ Clean dataset  
-✔ Strong EDA  
-✔ Business insights  
-✔ Visualization dashboard logic  
-✔ Interview-ready project
+
+✔ Data Cleaning and Preprocessing
+
+✔ Exploratory Data Analysis (EDA)
+
+✔ GroupBy, Pivot Table and Merge Operations
+
+✔ Feature Engineering
+
+✔ Statistical Analysis
+
+✔ Hypothesis Testing
+
+✔ Time Series Analysis
+
+✔ SQL and Advanced SQL Queries
+
+✔ Excel Data Review
+
+✔ Power BI Dashboard Development
+
+✔ Business Insights and Recommendations
+
+✔ Industry-Oriented Data Analytics Project
